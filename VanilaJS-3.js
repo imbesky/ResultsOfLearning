@@ -42,8 +42,6 @@ function GuessSubmit(refresh){
         alert("Please generate a range first.")
     } else if(SavedRange < GuessInput.value) {
         alert("Your number is too big!")
-    } else if (GuessInput.value === undefined || GuessInput.value === null) {
-    alert("Guess the number first.");
     } else {
     const SelectedGuess = GuessInput.value;
     info1.innerHTML = `You selected ${SelectedGuess}`;
