@@ -24,7 +24,7 @@ function time(){
 }
 
 function clearpage(){
-    window.localStorage.clear();
+    WaitingDay="";
     location.reload(true);
 }
 
