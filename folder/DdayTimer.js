@@ -5,14 +5,12 @@ const YearInput = document.querySelector("#yyyy");
 const MonthInput = document.querySelector("#mm");
 const DateInput = document.querySelector("#dd");
 let WaitingDay = "";
-const DayKey = "Waitingday";
 
 const Clear = document.querySelector("#clear");
 
 function time(){
-    if (WaitingDay === null) {
-        return;
-    }
+    if (WaitingDay === "") {
+        return;}
     const ADay = 1000*60*60*24;
     const WaitingDate = new Date(WaitingDay);
     const Nowdate = new Date();
