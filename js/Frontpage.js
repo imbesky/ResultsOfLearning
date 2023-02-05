@@ -14,7 +14,7 @@ function setname(r){
     nameform.classList.add(HideClass);
     username.innerText = `${nameofuser}의 기록`;
     ResetButton.classList.remove(HideClass);
-    location.reload(true);
+    window.location.reload(true);
 }
 
 function resetname(){
@@ -22,7 +22,7 @@ function resetname(){
     nameform.classList.remove(HideClass);
     username.innerText = `당신의 이름은 무엇인가요?`;
     ResetButton.classList.add(HideClass);
-    location.reload(true);
+    window.location.reload(true);
 }
 
 if (UserName === null) {
