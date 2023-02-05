@@ -14,13 +14,15 @@ function setname(r){
     nameform.classList.add(HideClass);
     username.innerText = `${nameofuser}의 기록`;
     ResetButton.classList.remove(HideClass);
+    location.reload(true);
 }
-//시간 나면... 유저 이름 지우면 그것만 지워지도록 바꾸기
+
 function resetname(){
     localStorage.removeItem(userkey);
     nameform.classList.remove(HideClass);
     username.innerText = `당신의 이름은 무엇인가요?`;
     ResetButton.classList.add(HideClass);
+    location.reload(true);
 }
 
 if (UserName === null) {
