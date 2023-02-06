@@ -1,7 +1,7 @@
 #sentence {
     font-size: 1.2vw;
     text-align: left;
-    min-height: 7vw;
+    min-height: 6vw;
     grid-column: 1/4;
 }
 #book {
