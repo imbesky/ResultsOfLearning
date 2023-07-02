@@ -1,7 +1,6 @@
 class Main {
   public static void main(String[] args) {
     Cookie c = new Cookie();
-    //default constructor 사용
     System.out.print(c.taste+"\t");
     System.out.print(c.number+"개\t");
     System.out.print(c.shape+"\t");
